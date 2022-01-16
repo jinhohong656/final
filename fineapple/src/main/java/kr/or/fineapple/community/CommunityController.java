@@ -759,6 +759,8 @@ public class CommunityController {
 		
 		//model.addAttribute("list", communityService.getGroupList());
 		
+		
+		
 		return "community/getGroupList.html";
 	}
 

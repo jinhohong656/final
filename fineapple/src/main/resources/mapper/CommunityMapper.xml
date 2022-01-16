@@ -1055,6 +1055,16 @@
 	ORDER BY img_no
 	</select>
 	
+	<select id="getGroupUserList" parameterType="groupUser" resultMap="groupUserMap">
+	SELECT
+	*
+	FROM
+	group_user
+	<trim prefix="WHERE" prefixOverrides="AND | OR">
+	group_no = #{groupNo}
+	</trim>
+	</select>
+	
 	
 
 	
