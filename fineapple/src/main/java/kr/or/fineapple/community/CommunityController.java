@@ -76,7 +76,7 @@ public class CommunityController {
 		
 		model.addAttribute("list", list);
 		model.addAttribute("NavName1","게시파");
-		model.addAttribute("NavName2","게시글 리스트 조회");
+		model.addAttribute("NavName2","게시글 리스트 조회 ㅋㅋ");
 		
 		
 		return "community/getBoard.html";
